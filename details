@@ -1,0 +1,14 @@
+git init => is used for create new  git repo  in the folder 
+git status => to see the staus of the files in the folder 
+git add . => to add the file in local 
+git commit -m "message but meaningful" => to commit the file for github 
+but still git is your local to upload on github we use these commands ---- Below are the commands use in powershell 
+ 
+ git init 
+  git remote add origin <link> => the link you get at the github repo which you create to upload your files 
+ git remote -v => to verify remote 
+git branch => to check branch 
+now push your files by 
+git push origin main => it will push your all files whech are in local 
+and if you know that you need to work on any project too long so you can pass 
+git push -u origin main => by this you dont need to write origin main each time ...
