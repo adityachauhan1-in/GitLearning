@@ -37,4 +37,18 @@ merging codes
 
  2way => in editor so you need to do 
  git merge branchname => it wil merge both files 
+
+ check history of commit 
+ git log =>  it will show all history of the commits 
+
+ UNdoing changes 
+ CASE 1 : STAGED Changes(it uses when you add. by mistake)
+ git reset <filename> => for any specific file
+ git reset => for all the files 
+ CASE 2 : COMMITED Changes (for one commit)
+ git reset HEAD~1 
+ CASE 3: for multiple commits 
+ git reset <commit hash> => it will found at git log 
+ git reset --hard <commit hash> => for removing the commits from editor also 
+
  
