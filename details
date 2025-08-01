@@ -34,3 +34,7 @@ git push -u origin main => by this you dont need to write origin main each time 
 merging codes 
  1way => using pull request at github then 
  git pull origin main => used to fetch and download the content from the remote repo to match with local repo
+
+ 2way => in editor so you need to do 
+ git merge branchname => it wil merge both files 
+ 
